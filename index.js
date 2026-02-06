@@ -10,6 +10,9 @@ const NoBtn=document.getElementById("NoLink");
 YesBtn.addEventListener("click",()=>{
     window.location.href="PicturePage.html";
 })
+const word =prompt("What's your girlfriends name?")
+const p =document.getElementById("message");
+p.textContent = word + " " + p.textContent;
 
 const tries = [
     "Really?",
