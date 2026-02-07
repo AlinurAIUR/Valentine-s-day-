@@ -45,14 +45,14 @@ button {
 }
 /* YES */
 #YesLink {
-
+    border: solid 3px #000;
     background: linear-gradient(135deg, #ff4e8d, #ff7eb3);
     color: white;
     box-shadow: 0 12px 30px rgba(255, 78, 141, 0.45);
 }
 /* NO */
 #NoLink {
-
+    border: solid 3px #000;
     background: linear-gradient(135deg, #ffb3c6, #ff8fab);
     color: #7a003c;
     box-shadow: 0 12px 30px rgba(255, 143, 171, 0.45);
